@@ -1,0 +1,11 @@
+This is a portfolio build in using only express js
+and the template engine ejs
+
+Steps to Run the project
+
+1. npm install
+2. nodemon ./index.js
+
+Created by Huraia Baloch
+
+email:hurairabaloch996@gmail.com

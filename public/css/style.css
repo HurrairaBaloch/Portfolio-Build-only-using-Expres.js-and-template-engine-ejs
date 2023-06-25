@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+}
+
+
+.container-fluid{
+    min-height: 100%;
+}
+.font{
+  color: #fff;
+}
+.i-color{
+    color: chartreuse;
+}
+.footer-icons a {
+  color: #fff;
+  margin-right: 10px;
+}
+.ss-color{
+    color:silver;
+}
+    @keyframes progress-bar-animation {
+      0% {
+        width: 0;
+      }
+    }
+  
+    .progress-bar {
+      animation: progress-bar-animation 1s ease-in-out;
+    }
+
+.nav-link:hover {
+  color: red;
+}
+.nav-link.active {
+    background-color: red;
+    color: white;
+}
+
+.custom-box {
+  border: 1px solid red;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.custom-box .nav-link {
+  display: block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-box .nav-link:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
